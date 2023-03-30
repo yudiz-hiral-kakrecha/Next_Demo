@@ -33,7 +33,7 @@ const HomeData = () => {
                         />
                         <button
                             type="submit"
-                            className="search-btn"
+                            className={style.search_btn}
                             onClick={(e) => usersData(e)}>
                             submit
                         </button>

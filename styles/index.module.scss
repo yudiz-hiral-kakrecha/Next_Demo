@@ -14,11 +14,27 @@
   }
   
   .search_input {
-    width: 100%;
+    width: 500px;
     padding: 0.5rem;
     font-size: 1.5rem;
     border: 1px solid black;
-    border: 1px solid black;
     border-radius: 0.25rem;
     margin-right: 0.5rem;
+  }
+  .search_btn{
+      border: none;
+      width: 150px;
+      height: 50px;
+      // margin: 10px 0 0 70px;
+      cursor: pointer;
+      background-color:#e6d8f4f0;
+      border: 1px solid e6d8f4f0 ;
+      border-radius: 5px;
+      font-size: 20px;
+
+      &:hover{
+        background-color: cadetblue;
+        color: white;
+      }
+
   }
