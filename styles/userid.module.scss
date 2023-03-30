@@ -1,0 +1,36 @@
+.user {
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 300px 0 100px;
+
+  table {
+    border-collapse: collapse;
+    width: 30%;
+    text-align: center;
+
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    .user_filed {
+      font-weight: bold;
+    }
+
+    .btn {
+      border: none;
+      width: 100px;
+      height: 30px;
+      margin: 10px 0 0 100px;
+      cursor: pointer;
+      background-color:#e6d8f4f0;
+      border-radius: 5px;
+
+      &:hover{
+        background-color: cadetblue;
+        color: white;
+      }
+    }
+  }
+}

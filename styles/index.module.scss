@@ -1,0 +1,24 @@
+
+.maincontainer {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search_form {
+    display: flex;
+    margin-top: 2rem;
+  }
+  
+  .search_input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+  }
